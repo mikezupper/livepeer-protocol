@@ -63,25 +63,21 @@ const config: HardhatUserConfig = {
             url: `https://mainnet.infura.io/v3/${INFURA_KEY}`,
             accounts: PRIVATE_KEY ? [`0x${PRIVATE_KEY}`] : undefined
         },
-        rinkeby: {
-            url: `https://rinkeby.infura.io/v3/${INFURA_KEY}`,
+        goerli: {
+            url: `https://goerli.infura.io/v3/${INFURA_KEY}`,
             accounts: PRIVATE_KEY ? [`0x${PRIVATE_KEY}`] : undefined,
             blockGasLimit: 12000000
         },
-        rinkebyDevnet: {
-            url: `https://rinkeby.infura.io/v3/${INFURA_KEY}`,
+        goerliDevnet: {
+            url: `https://goerli.infura.io/v3/${INFURA_KEY}`,
             accounts: PRIVATE_KEY ? [`0x${PRIVATE_KEY}`] : undefined
         },
         arbitrumMainnet: {
             url: `https://arbitrum-mainnet.infura.io/v3/${INFURA_KEY}`,
             accounts: PRIVATE_KEY ? [`0x${PRIVATE_KEY}`] : undefined
         },
-        arbitrumRinkeby: {
-            url: `https://arbitrum-rinkeby.infura.io/v3/${INFURA_KEY}`,
-            accounts: PRIVATE_KEY ? [`0x${PRIVATE_KEY}`] : undefined
-        },
-        arbitrumRinkebyDevnet: {
-            url: `https://arbitrum-rinkeby.infura.io/v3/${INFURA_KEY}`,
+        arbitrumGoerli: {
+            url: `https://arbitrum-goerli.infura.io/v3/${INFURA_KEY}`,
             accounts: PRIVATE_KEY ? [`0x${PRIVATE_KEY}`] : undefined
         },
         localhost: {

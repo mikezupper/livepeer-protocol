@@ -55,7 +55,7 @@ const defaultConfig = {
     }
 }
 
-const rinkeby = {
+const goerli = {
     arbitrumLivepeerToken: {
         router: "0x70C143928eCfFaf9F5b406f7f4fC28Dc43d68380"
     },
@@ -93,9 +93,9 @@ const rinkeby = {
     }
 }
 
-const rinkebyDevnet = rinkeby
+const goerliDevnet = goerli
 
-const arbitrumRinkeby = {
+const arbitrumGoerli = {
     bondingManager: {
         numActiveTranscoders: 100,
         unbondingPeriod: 2
@@ -120,7 +120,7 @@ const arbitrumRinkeby = {
     }
 }
 
-const arbitrumRinkebyDevnet = arbitrumRinkeby
+const arbitrumGoerliDevnet = arbitrumGoerli
 
 const arbitrumMainnet = {
     governor: {
@@ -155,10 +155,10 @@ const arbitrumMainnet = {
 }
 
 const networkConfigs: any = {
-    rinkeby,
-    rinkebyDevnet,
-    arbitrumRinkeby,
-    arbitrumRinkebyDevnet,
+    goerli,
+    goerliDevnet,
+    arbitrumGoerli,
+    arbitrumGoerliDevnet,
     arbitrumMainnet,
     gethDev
 }

@@ -7,7 +7,7 @@ export const arbitrumBridgeContracts: any = {
         inbox: "0x4c6f947Ae67F572afa4ae0730947DE7C874F95Ef",
         outbox: "0x760723CD2e632826c38Fef8CD438A4CC7E7E1A40"
     },
-    rinkeby: {
+    goerli: {
         l1GatewayRouter: "0x70C143928eCfFaf9F5b406f7f4fC28Dc43d68380",
         l2GatewayRouter: "0x9413AD42910c1eA60c737dB5f58d1C504498a3cD",
         inbox: "0x578BAde599406A8fE3d24Fd7f7211c0911F5B29e",
